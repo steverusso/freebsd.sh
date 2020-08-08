@@ -1,0 +1,18 @@
+languageCode = "en-us"
+title = "FreeBSD.sh"
+theme = "hugo-theme-essential"
+
+[permalinks]
+	lang = "/:slug/"
+	sysutil = "/:slug/"
+
+[frontmatter]
+	publishDate = [ "published" ]
+	lastmod = [ ":git", "lastmod" ]
+
+[markup.goldmark.renderer]
+	unsafe= true
+
+[params]
+	stylesheets = [ "freebsdsh.css" ]
+	drawerSects = [ "sysutil", "lang" ]
