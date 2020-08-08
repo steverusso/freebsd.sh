@@ -1,0 +1,26 @@
+a {
+	color: #1e90ff;
+}
+.jtron {
+	text-align: center;
+}
+.jtron img {
+	margin: 4rem auto;
+}
+.jtron p {
+	color: #888;
+	margin-top: 2rem;
+}
+.jtron hr {
+	margin: 4rem 0;
+}
+.jtron .links {
+	display: flex;
+	justify-content: center;
+}
+.jtron .links div {
+	padding: 0.25rem 2rem;
+}
+.jtron .links div:not(:last-child) {
+	border-right: thin solid #bbb;
+}
