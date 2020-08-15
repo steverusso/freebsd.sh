@@ -15,4 +15,5 @@ theme = "hugo-theme-essential"
 
 [params]
 	stylesheets = [ "freebsdsh.css" ]
-	drawerSects = [ "sysutil", "lang" ]
+	[params.drawer]
+		sections = [ "sysutil", "lang" ]
